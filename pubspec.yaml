@@ -1,0 +1,42 @@
+name: news
+description: News App made with Flutter.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  bloc: ^8.1.2
+  equatable: ^2.0.5
+  everything_repository:
+    path: packages/everything_repository
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_localizations:
+    sdk: flutter
+  get_it: ^7.6.4
+  headline_repository:
+    path: packages/headline_repository
+  intl: ^0.18.1
+  news_api:
+    path: packages/news_api
+  shimmer: ^3.0.0
+  source_repository:
+    path: packages/source_repository
+  weather:
+    path: packages/weather
+
+dev_dependencies:
+  bloc_test: ^9.1.4
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/
